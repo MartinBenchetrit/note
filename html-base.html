@@ -24,7 +24,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div id="principal">
                 <div id="element-texte">
                     <h2>Les éléments pour afficher du texte</h2>
                     <ul>
@@ -36,41 +36,51 @@
 
                 <div id="image">
                     <h2>Images</h2>
-                    <p>img : src="lien de l'image" alt="description"</p>
+                    <ul>
+                        <li>img : src="lien de l'image alt="description"</li>
+                    </ul>
                 </div>
 
                 <div id="lien">       
                     <h2>Les liens</h2>
-                    <p>a : href="chemin" </p>
-                    <p>a href="#nom" emmene vers div : id="nom"</p>
-                    <p>a : href="#" : lien mort</p>
+                    <ul>
+                        <li>a : href="chemin"</li>
+                        <li>a : href="#nom" emmene vers div : id="nom"</li>
+                        <li>a : href="#" : lien mort</li>
+                    </ul>
                 </div>
 
                 <div id="liste">
                     <h2>Listes</h2>
-                    <p>ul ou ol (puces ou numéro)</p>
-                    <p>li pour chaque élément de la liste</p>
+                    <ul>
+                        <li>ul ou ol (puces ou numéro)</li>
+                        <li>li pour chaque élément de la liste</li>
+                    </ul>
                 </div>
 
                 <div id="formulaire">
                     <h2>Formulaire</h2>
-                    <p>form : action="action une fois le formulaire rempli"</p>
-                    <h3>Les différents boutons</h3>
                     <ul>
-                        <li>input : type="text" paceholder="texte deja écrit" (required)</li>
-                        <li>button : type="submit"</li>
-                        <li>input : type="radio" name="meme nom que les autres"</li>
-                        <li>input : type="checkbox" name="meme nom que les autres</li>
+                        <li>form : action="action une fois le formulaire rempli"</li>
+                        <h3>Les différents boutons</h3>
+                        <ul>
+                            <li>input : type="text" paceholder="texte deja écrit" (required)</li>
+                            <li>button : type="submit"</li>
+                            <li>input : type="radio" name="meme nom que les autres"</li>
+                            <li>input : type="checkbox" name="meme nom que les autres</li>
+                        </ul>
+                        <li>Chaque checkbox ou radio doit etre mis dans un label : for="meme que l'id"</li>
                     </ul>
-                    <p>Chaque checkbox ou radio doit etre mis dans un label : for="meme que l'id"</p>
                 </div>
+                
             </div>
 
         </main> 
 
         <footer>
-            <a href="file:///C:/Users/eleve2/Desktop/Programmation/Notes/home.html">Retour à l'acceuil</a>
+            <a id="bouton-retour" href="./home.html">Retour à l'acceuil</a>
         </footer>
+
     </body>
 
 </html>
