@@ -18,10 +18,11 @@
                 <ul>
                     <li><a href="#designer">Designer en CSS</a></li>
                     <li><a href="#modifier-texte">Modifier texte</a></li>
-                    <li><a href="#image">Image</a></li>
+                    <li><a href="#visuel">Visuel</a></li>
                     <li><a href="#bord">Les bords des éléments</a></li>
                     <li><a href="#marginpadding">Margin et Padding</a></li>
                     <li><a href="#variable">Variables</a></li>
+                    <li><a href="#keyframes">Keyframes</a></li>
                 </ul>
             </div>
 
@@ -43,19 +44,31 @@
                         <li>color : couleur / rgb(000,000,000) / #000000</li>
                         <li>font-size : px</li>
                         <li>font-family : police de son choix, police de secours</li>
-                        <li>font-weight : bold</li>
+                        <li>font-weight : bold / chiffre</li>
                         <li>text-decoration : underline / line-through</li>
+                        <li>text-transform : lowercase / uppercase / capitalize ...</li>
                         <li>font-style : italic</li>
                         <li>link : href="lien police" rel="stylesheet" type="texte/css"</li>
                         <li>text-align : center/ justify / left / right</li>
+                        <li>line-height : px</li>
                     </ul>
                 </div>
                 
-                <div id="image">
-                    <h2>Image</h2>
+                <div id="visuel">
+                    <h2>Visuels : image, formes, couleurs</h2>
                     <ul>
                         <li>width : px</li>
                         <li>height : px</li>
+                        <li>box shadow : px px (px) (px) color</li>
+                        <li>opacity : 0/1</li>
+                        <li>position : relative / absolute / fixed</li>
+                        <li>float : right / left</li>
+                        <li>z-index : numéro</li>
+                        <li>background : linear-gradient(90deg, color 1, color 2, ...)</li>
+                        <li>background : url(lien)</li>
+                        <li>transform : scale(2) / skewX ou Y (deg) / rotate(deg)</li>
+                        <li>audio : controls</li>
+                        <li>source : src="source" type="type" </li>
                     </ul>
                 </div>
 
@@ -72,7 +85,7 @@
                 <div id="marginpadding">
                     <h2>Margin et Padding</h2>
                     <ul>
-                        <li>margin : haut droit bas gauche</li>
+                        <li>margin : haut droit bas gauche / auto</li>
                         <li>padding : haut droit bas gauche</li>
                     </ul>
                 </div>
@@ -83,6 +96,25 @@
                         <li>--variable : valeur;</li>
                         <li>var(-variable);</li>
                         <li>:root {}</li>
+                    </ul>
+                </div>
+
+                <div id="pseudo-class">
+                    <h2>Pseudo class</h2>
+                    <ul>
+                        <li>hover : quand on passe la souris dessus</li>
+                    </ul>
+                </div>
+
+                <div id="keyframes">
+                    <h2>Les keyframes</h2>
+                    <ul>
+                        <li>animation-name : nom</li>
+                        <li>animation-duration : s</li>
+                        <li>animation-fill-mode : forwards</li>
+                        <li>animation-itinerant-count : 3 / infinite</li>
+                        <li>animtion-timing-function : ease / ease-out / ease-in / linear</li>
+                        <li>cube-bezier(0,0,0,0)</li>
                     </ul>
                 </div>
 
